@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@angular/cli": "^14.2.11"
+    "@angular/cli": "^14.2.11",
+    "ng2-file-upload": "^2.0.0-3"
   }
 }
