@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, Self } from '@angular/core';
 import { ControlValueAccessor, FormControl, NgControl } from '@angular/forms';
+import { DATE } from 'ngx-bootstrap/chronos/units/constants';
 import { BsDatepickerConfig } from 'ngx-bootstrap/datepicker';
 
 @Component({
@@ -34,6 +35,3 @@ export class DatePickerComponent implements ControlValueAccessor {
 
 
 }
-
-
-
