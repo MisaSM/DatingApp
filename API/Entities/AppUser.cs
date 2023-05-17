@@ -25,5 +25,9 @@ namespace API.Entities
         // {
         //     return DateOfBirth.CalculateAge();
         // }
+
+        public List<UserLike> LikedByUsers {get; set;}
+
+        public List<UserLike> LikedUsers {get; set;}
     }
 }
