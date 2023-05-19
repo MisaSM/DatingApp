@@ -22,7 +22,7 @@ namespace API.Data
 
         public DbSet<Connection> Connections {get; set;}
 
-        
+        public DbSet<Photo> Photos {get; set;}
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -66,6 +66,9 @@ namespace API.Data
                    .HasOne(u => u.Sender)
                    .WithMany(m => m.MessagesSent)
                    .OnDelete(DeleteBehavior.Restrict);
+
+                   
+
         }
     }
 }
