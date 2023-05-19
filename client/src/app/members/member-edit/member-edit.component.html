@@ -17,15 +17,15 @@
                 </div>
                 <div>
                     <strong>Age:</strong>
-                    <p>{{member.city}}, {{member.age}}</p>
+                    <p>{{member.age}}</p>
                 </div>
                 <div>
-                    <strong>Las active:</strong>
-                    <p>{{member.city}}, {{member.lastActive}}</p>
+                    <strong>Last active:</strong>
+                    <p>{{member.lastActive| timeago}}</p>
                 </div>
                 <div>
                     <strong>Member since:</strong>
-                    <p>{{member.city}}, {{member.created}}</p>
+                    <p>{{member.created | timeago}}</p>
                 </div>
             </div>
             <div class="card-footer">
